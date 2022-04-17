@@ -1,15 +1,18 @@
 package models;
 
 public class Tile {
-    public boolean isOfType(TerrainProperty property) {
-        // TODO 
-        /* return true if this tile has <property>
-        */
-        return true;
+    private boolean isPillaged;
+    private Output output;
+
+    public boolean getIsPillaged() {
+        return this.isPillaged;
     }
 
-    public boolean containsImprovement(ImprovementType improvement) {
-        // TODO
-        return true;
+    public void setIsPillaged(boolean isPillaged) {
+        this.isPillaged = isPillaged;
+    }
+
+    public Output getOutput(){
+        return this.output;
     }
 }

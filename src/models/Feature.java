@@ -1,5 +1,6 @@
 package models;
 
+
 public enum Feature implements TerrainProperty {
     JUNGLE(),
     FOREST(),
